@@ -1,3 +1,4 @@
 DatingApp.API/bin/*
 DatingApp.API/obj/*
 .vs/*
+appsettings.json
