@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
 
+  model: any = {};
+
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
+  }
+
+  register(): void {
+    console.log(this.model);
+  }
+
+  cancel(): void {
+    console.log('cancelled');
   }
 
 }
